@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Ben",
+    "profilePic": "https://avatars1.githubusercontent.com/u/692678?v=4"
+  },
+  {
+    "id": 2,
+    "name": "Collin",
+    "profilePic": "https://s3.amazonaws.com/learndotresources/profile_pics/595cf39712bea10004ab880a1510680503428.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Finn",
+    "profilePic": "https://avatars2.githubusercontent.com/u/1832043?v=3"
+  },
+  {
+    "id": 4,
+    "name": "Priti",
+    "profilePic": "https://s3.amazonaws.com/learndotresources/profile_pics/5658d0ad01209f030023daa8.jpg"
+  }
+]
