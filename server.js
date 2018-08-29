@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
 const { layout, instructorUL } = require('./templates')
-const instructors = require('./instructors.json')
+const { Instructor } = require('./models')
 const PORT = process.env.PORT || 3000
 
 app.get('/', async (req, res, next) => {
+  const instructors = await Instructor.findAll()
   res.send(layout(instructorUL(instructors)))
 })
 
